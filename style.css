@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header, section{
+    background-color: #1F2937;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+}
+.header-logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.header-nav > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+.section-left{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 32rem;
+}
+.section-right{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 200px;
+    width: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;;
+    
+    background-image: url("./images/genshin-impact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.hero-secondary-text{
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.btn-header{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 6rem;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: medium;
+    border: none;
+    border-radius: 8px;
+}
+.btn-header:hover{
+    cursor: pointer;
+    background-color: #0c65f3;
+}
+
+
+
+.info-header-text{
+    margin-top: 3rem;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+.info-container{
+    margin-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+.info-item{
+    margin-top: 1rem;
+    width: 10rem;
+    text-align: center;
+}
+.info-item > p{
+    margin-top: 1rem;
+    color: #1F2937;
+}
+.box{
+    width: 10rem;
+    height: 18rem;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+#kazuma{
+    background-image: url("./images/kazuma.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ayakonoji{
+    background-image: url("./images/ayakonoji.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#haruhiro{
+    background-image: url("./images/haruhiro.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sun-jin-woo{
+    background-image: url("./images/sun-jin-woo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+.quote-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-author{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: end;
+}
+
+
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.figure-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+.figure-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figure-primary-text{
+    color: #F9FAF8;
+}
+.figure-secondary-text{
+    color: #E5E7EB;
+}
+.btn-footer{
+    height: 2rem;
+    width: 6rem;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: medium;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.btn-footer:hover{
+    cursor: pointer;
+    background-color: #0c65f3;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+footer p{
+    padding: 3rem;
+    color: #E5E7EB;
+}
