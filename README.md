@@ -1,2 +1,2 @@
 # landing-page
- My 2nd project in the odin project
+ My 2nd project in The Odin Project
